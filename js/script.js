@@ -1,2 +1,11 @@
-console.log('Hello Console');
+console.log('Hello Console!');
 
+/** 
+ * TASKS:
+ * 
+ *  1. ASK FOR THE VISITOR'S KM RIDE NEEDED;
+ *  2. ASK FOR VISITOR'S AGE;
+ *  3. CALCULATE THE TOTAL RIDE PRICE AND APPLY DISCOUNTS IF NEEDED;
+ *  4. GIVE AN OUTPUT ABOUT THE PRICE WITH ONLY TWO DECIMAL PLACES.
+ * 
+*/

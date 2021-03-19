@@ -6,5 +6,45 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
 /* STYLES */
 
+.container {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url('https://siviaggia.it/wp-content/uploads/sites/2/2019/12/treno.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    background: rgba(200,200,200, .3);
+    color: #ac0b0b;
+}
+
+.pubblicity {
+    padding-bottom: 20px;
+}
+
+.price {
+    align-self: center;
+    width: 75%;
+    margin-top: 50px;
+    padding: 50px;
+    background: rgba(0,0,0, .8);
+    color: #fff;
+}
