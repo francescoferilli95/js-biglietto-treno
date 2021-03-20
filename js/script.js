@@ -25,7 +25,9 @@ console.log(youngDiscount);
 var seniorDiscount = ( (price * 40) / 100).toFixed(2);
 console.log(seniorDiscount);
 var youngDiscountPrice = (price - youngDiscount).toFixed(2);
+console.log(youngDiscountPrice);
 var seniorDiscountPrice = (price - seniorDiscount).toFixed(2);
+console.log(seniorDiscountPrice);
 
 /**
  * PRICE CALCULATOR BASED ON THE AGE OF THE VISITOR
